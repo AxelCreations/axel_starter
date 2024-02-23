@@ -24,6 +24,6 @@ const compileTS = () => {
 exports.css = compileSass;
 
 exports.watch = () => {
-  watch('src/sass/*scss', compileSass);
+  watch('src/sass/**/*.scss', compileSass);
   watch('src/ts/**/*.ts', compileTS);
 }

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -11,12 +12,14 @@
 
 ?>
 
-	<footer id="master-footer" class="site-footer">
-		
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+<footer class="footer">
+	<div class="container">
+		<p class="text-center">&copy; 2024 AxelStarter. All rights reserved.</p>
+	</div>
+</footer>
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>

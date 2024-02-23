@@ -1,0 +1,32 @@
+@import "./_global/global";
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+#page-404 {
+  .error-template {
+    text-align: center;
+    padding: 40px;
+  }
+  .error-code {
+    font-size: 96px;
+    margin-bottom: 20px;
+  }
+  .error-message {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .error-actions {
+    margin-top: 20px;
+  }
+  .btn {
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}

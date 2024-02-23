@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define( '_S_VERSION', time() );
 }
 
 /**
@@ -141,10 +141,10 @@ function axel_starter_scripts() {
 	wp_enqueue_style( 'axel_starter-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'axel_starter-style', 'rtl', 'replace' );
 	
-	wp_enqueue_style( 'axel_starter-bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), _S_VERSION, true );
+	wp_enqueue_style( 'axel_starter-bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), _S_VERSION );
 
-	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/lib/jquery.min.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'axel_starter-navigation', get_template_directory_uri() . '/assets/lib/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/lib/jquery.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'axel_starter-navigation', get_template_directory_uri() . '/lib/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'axel_starter-bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.bundle.js', array(), _S_VERSION, true );
 }
 

@@ -31,6 +31,8 @@ function starter_enqueue_scripts()
 
   if (file_exists(get_template_directory() . $cssBase)) {
     wp_enqueue_style('axel_starter-' . $pageName . '-css', $cssFile, array(), _S_VERSION);
+  } else {
+    wp_enqueue_style('axel_starter-empty-css', $themePath . '/assets/css/empty.css', array(), _S_VERSION);
   }
 
   // Enqueue the script
@@ -39,6 +41,8 @@ function starter_enqueue_scripts()
 
   if (file_exists(get_template_directory() . $jsBase)) {
     wp_enqueue_script('axel_starter-' . $pageName . '-js', $jsFile, array('jquery'), _S_VERSION, true);
+  } else {
+    wp_enqueue_script('axel_starter-global-js', $themePath . '/assets/js/global.js', array('jquery'), _S_VERSION, true);
   }
 }
 add_action('wp_enqueue_scripts', 'starter_enqueue_scripts');

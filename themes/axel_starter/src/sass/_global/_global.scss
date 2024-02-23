@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@import "./normalize";
+@import "./vars";
+@import "./footer";
+@import "./header";
+
+* {
+  font-family: $font-family;
+  box-sizing: border-box;
+  margin: 0;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+
+  &:focus,
+  &:focus-visible,
+  &:focus-within {
+    outline-style: none !important;
+  }
+}
+
+body {
+  background: $color-bg-200;
+  color: $color-text;
+  font-family: $font-family;
+  font-size: $font-size;
+}
+
+img {
+  max-width: 100%;
+}

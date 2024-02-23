@@ -24,9 +24,9 @@ plugins/*
 
 index.php
 themes/twenty*
-themes/index.php
 plugins/index.php
 plugins/akismet*
+!themes/*/index.php
 
 themes/*/assets/css/*
 themes/*/assets/js/*
