@@ -1,0 +1,32 @@
+{
+  "name": "axel_starter",
+  "version": "1.0.0",
+  "description": "AxelCreations Starter Theme",
+  "author": "AxelCreations",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme",
+    "html",
+    "css",
+    "javascript",
+    "sass",
+    "typescript"
+  ],
+  "homepage": "https://github.com/AxelCreations/axel_starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxelCreations/axel_starter"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
