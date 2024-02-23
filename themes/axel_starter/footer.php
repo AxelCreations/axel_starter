@@ -11,20 +11,8 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'axel_starter' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'axel_starter' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'axel_starter' ), 'axel_starter', '<a href="https://github.com/AxelCreations/axel_starter">AxelCreations</a>' );
-				?>
-		</div><!-- .site-info -->
+	<footer id="master-footer" class="site-footer">
+		
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
