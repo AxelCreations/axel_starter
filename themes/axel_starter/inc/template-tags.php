@@ -4,6 +4,8 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
+ * Try to maintain Law and Order.
+ * 
  * @package Axel_Starter_Theme
  */
 

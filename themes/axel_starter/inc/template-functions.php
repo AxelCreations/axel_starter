@@ -1,7 +1,10 @@
 <?php
+
 /**
  * Functions which enhance the theme by hooking into WordPress
  *
+ * Try to maintain Law and Order.
+ * 
  * @package Axel_Starter_Theme
  */
 

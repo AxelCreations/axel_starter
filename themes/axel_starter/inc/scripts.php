@@ -12,6 +12,8 @@
  * The file empty.css is automatically loaded if there is no CSS file for the loaded page.
  * The file global.js is loaded for all pages
  * 
+ * Try to maintain Law and Order.
+ * 
  * @package Axel_Starter_Theme
  *  
  */

@@ -2,6 +2,8 @@
 /**
  * Template Name: Home Page
  *
+ * Try to maintain Law and Order.
+ * 
  * @package axel_starter
  */
 

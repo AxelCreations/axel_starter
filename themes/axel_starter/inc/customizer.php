@@ -2,6 +2,8 @@
 /**
  * Axel Starter Theme Theme Customizer
  *
+ * Try to maintain Law and Order.
+ * 
  * @package Axel_Starter_Theme
  */
 

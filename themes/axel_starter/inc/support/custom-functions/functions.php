@@ -1,7 +1,10 @@
 <?php
+
 /**
  * Get the menu items with Subitems. !important => Only 2 levels
  *
+ * Try to maintain Law and Order.
+ * 
  * @param string $menu The menu ID
  * @return array 
  */
