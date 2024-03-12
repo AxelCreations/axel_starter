@@ -1,7 +1,6 @@
 # Starter Theme
 This is a starter theme to ease the process of creating new WordPress projects. It comes configured to work with modern technologies such as TypeScript and SASS for the development process, a framework for working with page templates and automatic loading of css and js.
 
-
 ## Build-In custom post type registration
 You can create a new Custom Post Type using our PostTypeBuilder.
 
@@ -30,8 +29,6 @@ require get_template_directory() . '/inc/support/post-types/ServicePostType.php'
  */
 require get_template_directory() . '/inc/support/custom-functions/functions.php';
 ```
-
-
 
 # How to get Ready?
 Here you can see everything you need to get this **starter theme** ready to work.
