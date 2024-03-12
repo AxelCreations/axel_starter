@@ -9,6 +9,9 @@
  * 2. The JS files need to be like this: /js/modules/{page-name}.js
  * 3. The CSS files need to be like this: /css/pages/{page-name}.css
  * 
+ * The file empty.css is automatically loaded if there is no CSS file for the loaded page.
+ * The file global.js is loaded for all pages
+ * 
  * @package Axel_Starter_Theme
  *  
  */
@@ -41,9 +44,9 @@ function starter_enqueue_scripts()
 
   if (file_exists(get_template_directory() . $jsBase)) {
     wp_enqueue_script('axel_starter-' . $pageName . '-js', $jsFile, array('jquery'), _S_VERSION, true);
-  } else {
-    wp_enqueue_script('axel_starter-global-js', $themePath . '/assets/js/global.js', array('jquery'), _S_VERSION, true);
   }
+  
+  wp_enqueue_script('axel_starter-global-js', $themePath . '/assets/js/global.js', array('jquery'), _S_VERSION, true);
 }
 add_action('wp_enqueue_scripts', 'starter_enqueue_scripts');
 
