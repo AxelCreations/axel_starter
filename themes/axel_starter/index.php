@@ -14,13 +14,13 @@
  */
 
 get_header();
-
 ?>
+
 <main id="main">
   <div class="container">
     <?php the_content(); ?>
   </div>
 </main>
-<?php
 
+<?php
 get_footer();
